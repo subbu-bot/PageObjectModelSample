@@ -14,7 +14,7 @@ public class loginTest2 {
 	
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.zoho.com");
-		driver.manage().window().maximize();
+//		driver.manage().window().maximize();
 		driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(30));
 		
 		HomePage home = new HomePage(driver);
